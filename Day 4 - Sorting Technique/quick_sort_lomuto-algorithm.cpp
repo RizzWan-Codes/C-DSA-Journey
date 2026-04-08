@@ -2,6 +2,8 @@
 #include <iostream>
 using namespace std;
 
+// Lomuto's partitioning algorithm
+
 int Partition (vector<int>& arr, int left, int right) {
     int pivot = arr[right];
     int i = left - 1;

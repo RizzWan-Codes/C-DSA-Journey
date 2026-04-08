@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+// Hoare's partitioning algorithm
+
 int Partition (vector<int>& arr, int left, int right) {
     int pivot = arr[left];
     int i = left - 1;
